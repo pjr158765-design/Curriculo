@@ -28,3 +28,4 @@ Mantenha exatamente o mesmo nome: `foto.jpg`.
 - script.js
 - foto.jpg
 - curriculo-paulo-junior.pdf
+Atualização do portfólio.
