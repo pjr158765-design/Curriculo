@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Paulo Júnior, desenvolvedor em formação.">
+  <meta name="theme-color" content="#070b18">
+  <title>Paulo Júnior | Portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#inicio" aria-label="Ir para o início">PJ<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="badge"><i class="fa-solid fa-code"></i> Disponível para oportunidades</span>
+          <p class="overline">Olá, meu nome é</p>
+          <h1>Paulo <span>Júnior</span></h1>
+          <h2>Eu sou <strong id="typing-text">desenvolvedor em formação</strong><span class="cursor">|</span></h2>
+          <p class="hero-text">
+            Crio experiências digitais modernas, responsivas e fáceis de usar.
+            Estou construindo minha carreira em tecnologia com dedicação, curiosidade e prática constante.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projetos">
+              <i class="fa-solid fa-rocket"></i> Ver projetos
+            </a>
+            <a class="btn btn-ghost" href="curriculo-paulo-junior.pdf" download>
+              <i class="fa-solid fa-file-arrow-down"></i> Baixar currículo
+            </a>
+          </div>
+
+          <div class="quick-contact">
+            <a href="https://wa.me/5551996210796" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="mailto:pjr158765@gmail.com">
+              <i class="fa-solid fa-envelope"></i> E-mail
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="photo-card">
+            <div class="photo-glow"></div>
+            <img src="foto.jpg" alt="Foto de Paulo Júnior">
+            <div class="status-card">
+              <span class="status-dot"></span>
+              <div>
+                <strong>Paulo Júnior</strong>
+                <small>Desenvolvedor em formação</small>
+              </div>
+            </div>
+          </div>
+          <div class="floating-icon icon-html"><i class="fa-brands fa-html5"></i></div>
+          <div class="floating-icon icon-css"><i class="fa-brands fa-css3-alt"></i></div>
+          <div class="floating-icon icon-js"><i class="fa-brands fa-js"></i></div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#sobre" aria-label="Rolar para a próxima seção">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">01</span>
+          <div>
+            <p>Conheça um pouco</p>
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-main reveal">
+            <h3>Transformando aprendizado em projetos reais.</h3>
+            <p>
+              Sou um desenvolvedor em formação apaixonado por tecnologia e criação de soluções digitais.
+              Gosto de aprender colocando a mão na massa, desenvolvendo páginas modernas, responsivas e organizadas.
+            </p>
+            <p>
+              Meu objetivo é crescer profissionalmente na área de desenvolvimento, colaborar com equipes,
+              aprender novas tecnologias e construir produtos que ajudem pessoas.
+            </p>
+
+            <div class="about-highlights">
+              <div><strong>Foco</strong><span>Desenvolvimento web</span></div>
+              <div><strong>Perfil</strong><span>Proativo e dedicado</span></div>
+              <div><strong>Objetivo</strong><span>Primeira oportunidade</span></div>
+            </div>
+          </article>
+
+          <aside class="glass-card contact-mini reveal">
+            <h3>Informações</h3>
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i><span>Rio Grande do Sul, Brasil</span></li>
+              <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/5551996210796" target="_blank">+55 (51) 99621-0796</a></li>
+              <li><i class="fa-solid fa-envelope"></i><a href="mailto:pjr158765@gmail.com">pjr158765@gmail.com</a></li>
+              <li><i class="fa-brands fa-github"></i><a href="https://github.com/pjr158765-design" target="_blank">pjr158765-design</a></li>
+              <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/paulo-júnior-949a02314" target="_blank">LinkedIn</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="habilidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">02</span>
+          <div>
+            <p>Ferramentas que estudo</p>
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-bars glass-card reveal">
+            <div class="skill">
+              <div class="skill-top"><span>HTML5</span><span>85%</span></div>
+              <div class="skill-track"><span data-level="85"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-top"><span>CSS3</span><span>80%</span></div>
+              <div class="skill-track"><span data-level="80"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-top"><span>JavaScript</span><span>65%</span></div>
+              <div class="skill-track"><span data-level="65"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-top"><span>Git e GitHub</span><span>70%</span></div>
+              <div class="skill-track"><span data-level="70"></span></div>
+            </div>
+          </div>
+
+          <div class="tech-grid">
+            <article class="tech-card reveal"><i class="fa-brands fa-html5"></i><span>HTML5</span></article>
+            <article class="tech-card reveal"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></article>
+            <article class="tech-card reveal"><i class="fa-brands fa-js"></i><span>JavaScript</span></article>
+            <article class="tech-card reveal"><i class="fa-brands fa-git-alt"></i><span>Git</span></article>
+            <article class="tech-card reveal"><i class="fa-brands fa-github"></i><span>GitHub</span></article>
+            <article class="tech-card reveal"><i class="fa-solid fa-mobile-screen-button"></i><span>Responsividade</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">03</span>
+          <div>
+            <p>Trabalhos e estudos</p>
+            <h2>Projetos</h2>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-preview preview-one">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <h3>Portfólio profissional</h3>
+              <p>Site pessoal responsivo com animações, currículo para download e contato direto.</p>
+              <a href="https://github.com/pjr158765-design" target="_blank" rel="noopener noreferrer">
+                Ver no GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-preview preview-two">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="project-content">
+              <div class="project-tags"><span>Em evolução</span></div>
+              <h3>Próximos projetos</h3>
+              <p>Novas aplicações serão publicadas conforme meu aprendizado e evolução profissional.</p>
+              <a href="https://github.com/pjr158765-design?tab=repositories" target="_blank" rel="noopener noreferrer">
+                Ver repositórios <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="formacao">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">04</span>
+          <div>
+            <p>Minha trajetória</p>
+            <h2>Formação</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i class="fa-solid fa-code"></i></div>
+            <div class="glass-card">
+              <span>Em andamento</span>
+              <h3>Desenvolvimento Web</h3>
+              <p>Aprendizado prático em HTML, CSS, JavaScript, Git, GitHub e criação de páginas responsivas.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i class="fa-solid fa-book-open"></i></div>
+            <div class="glass-card">
+              <span>Aprendizado contínuo</span>
+              <h3>Tecnologia e programação</h3>
+              <p>Cursos, estudos independentes e desenvolvimento de projetos para fortalecer conhecimentos técnicos.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div>
+            <span class="badge"><i class="fa-solid fa-paper-plane"></i> Entre em contato</span>
+            <h2>Vamos construir algo juntos?</h2>
+            <p>Estou aberto a oportunidades, projetos, aprendizado e novas conexões profissionais.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="btn btn-whatsapp" href="https://wa.me/5551996210796" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="mailto:pjr158765@gmail.com">
+              <i class="fa-solid fa-envelope"></i> Enviar e-mail
+            </a>
+          </div>
+
+          <div class="social-row">
+            <a href="https://github.com/pjr158765-design" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/paulo-júnior-949a02314" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/5551996210796" target="_blank" rel="noopener noreferrer" aria-label="Falar com Paulo pelo WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>Desenvolvido por <strong>Paulo Júnior</strong>.</p>
+      <p>© <span id="year"></span> Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
